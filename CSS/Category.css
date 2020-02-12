@@ -1,0 +1,116 @@
+
+		
+
+		.mainbuild {
+			width : 80%;
+			margin:auto;
+			font-size: 4vw;
+		
+		}
+		
+		.titlebuild {
+			width : 95%;
+			margin:auto;
+			font-size: 4vw;
+		}
+		
+		.maintable {
+				max-height: 500px;
+				min-height: 200px;
+				overflow: auto;
+				background-color: rgba(223,174,232,0.9);
+				border:build;
+				color: black;
+		}
+		
+		.partdisp {
+			font-size:2vw;
+			width :100%;
+			
+		}
+		
+		.tablehead {
+			background-color:#2b061e; 
+			font-size:2.5vw; 
+			color: #fffff2; 
+			padding-left:15px; 
+			text-align:left;
+		}
+		
+		.partcell {
+			border-bottom: 1px solid #2b061e;
+			border-right: 1px solid #2b061e;
+			padding: 5px;
+		}
+		
+		.li-search {
+			font-size:2vw;
+			width: 40%;
+			margin-right: 5%;
+		}
+		
+		.li-range {
+			font-size:2vw;
+			width: 40%;
+		}
+		
+		.AddCart{
+			background-color: red;
+			position: relative;
+		}
+		
+		.CartButton {
+			position: absolute;
+			right: 0px;
+			top: 10px;
+			background-color: #2b061e;
+			font-size: 2vw;
+			color: #dfaee8;
+			padding: 10px;
+			border: none;
+			transition:transform;
+			transition-duration:0.3s;
+		}
+		
+		.CartButton:hover {
+		color: #fffffe;
+		transform: scale(1.25);}
+		
+		.CartButton:active {
+			transform: translateY(4px);
+			border: none;
+		}
+		
+		.CartButton:focus {
+			outline:none;
+		}
+		
+		@media screen and (max-width:1300px) {
+			
+			.mainbuild {
+				width : 80%;
+				margin:auto;
+				font-size: 28px;
+			}	
+			
+			.titlebuild {
+				width : 80%;
+				margin:auto;
+				font-size: 32px;
+			}
+			
+			
+			
+			.partdisp, .li-search, .li-range {
+				font-size:22px;
+			}
+			
+			.tablehead {
+				font-size:24px;
+			}
+			
+			.maintable {
+				height:1200px;
+			}
+			
+		}

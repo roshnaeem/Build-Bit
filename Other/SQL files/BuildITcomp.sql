@@ -1,0 +1,41 @@
+
+DROP SCHEMA IF EXISTS SCHOOL;
+CREATE SCHEMA SCHOOL;
+USE SCHOOL;
+
+--
+-- Table structure for table `Reg`
+--
+CREATE TABLE Reg (
+Registration_ID  INT NOT NULL AUTO_INCREMENT PRIMARY KEY);
+
+CREATE TABLE Student (
+  Student_ID INT NOT NULL AUTO_INCREMENT,
+  FirstName VARCHAR(45) NOT NULL,
+  LastName VARCHAR(45) NOT NULL,
+  Email VARCHAR(45),
+  Password VARCHAR(45),
+  DoB VARCHAR(30),
+  PRIMARY KEY  (Student_ID)
+);
+
+CREATE TABLE Teacher(
+  Teacher_ID INT NOT NULL AUTO_INCREMENT,
+  FirstName VARCHAR(45) NOT NULL,
+  LastName VARCHAR(45) NOT NULL,
+  Email VARCHAR(45),
+  Password VARCHAR(45),
+  DoB VARCHAR(30),
+  PRIMARY KEY  (Student_ID)
+);
+
+CREATE TABLE Administration (
+  Administration_ID INT NOT NULL AUTO_INCREMENT,
+  FirstName VARCHAR(45) NOT NULL,
+  LastName VARCHAR(45) NOT NULL,
+  Email VARCHAR(45),
+  Password VARCHAR(45),
+  DoB VARCHAR(30),
+  PRIMARY KEY  (Student_ID)
+);
+--
