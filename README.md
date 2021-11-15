@@ -6,6 +6,7 @@
 Run wamp server and clone the repository to "www" directory of wamp. Enter the link "localhost\index.php" in your broswer and start exploring the website. 
 
 # Get
+Let's start
 ```
 git clone https://github.com/roshnaeem/Build-Bit-Website.git
 ```
